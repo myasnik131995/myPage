@@ -1,0 +1,335 @@
+@media (max-width: 1200px) {
+    .header{
+        display: none;
+    }
+    .header_mobile{
+        display: flex;
+        position: fixed;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background-color: #f5f5f5ee;
+        z-index: 5;
+    }
+    .header_menu_burger{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80px;
+        height: 50px;
+    }
+    .header_menu_burger_line_one{
+        width: 45%;
+        height: 3px;
+        background-color: black;
+        margin: 10px 0 0 0;
+        transition: 0.5s;
+    }
+    .header_menu_burger_line_one_active{
+        width: 45%;
+        height: 3px;
+        background-color: black;
+        margin: 10px 0 0 0;
+        transform: rotate(45deg);   
+        position: relative;
+        top: 30%;
+    }
+    .header_menu_burger_line_two{
+        width: 45%;
+        height: 3px;
+        background-color: black;
+        margin: 10px 0 0 0;
+    }
+    .header_menu_burger_line_two_active{
+        width: 100%;
+        height: 0;
+        background-color: black;
+        margin: 10px 0 0 0;
+    }
+    .header_menu_burger_line_three{
+        width: 45%;
+        height: 3px;
+        background-color: black;
+        margin: 10px 0 0 0;
+        transition: 0.5s;
+    }
+    .header_menu_burger_line_three_active{
+        width: 45%;
+        height: 3px;
+        background-color: black;
+        margin: 10px 0 0 0;
+        transform: rotate(-45deg);
+        position: relative;
+        bottom: 15%;
+    }
+    .header_logo{
+        text-align: center;
+    }
+    .header_language img{
+        width: 40px;
+    }
+    .header_language{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80px;
+        height: 45px;
+    }
+    .opening_name{
+        font-size: 50px;
+    }
+    .opening_console-container {
+        font-size: 20px;
+    }
+    .general{
+        display: flex;
+        flex-direction: column;
+    }
+    .general_title{
+        text-align: center ;
+    }
+    .general_container{
+        display: flex;
+        justify-content: space-around;
+    }
+    .porfolio_list{
+        padding: 0 50px;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media (max-width: 920px) {
+    .skills_title{
+       align-self: center;
+       margin: 50px 0;
+    }
+    .skills_services_list{
+        grid-template-columns: repeat(2, 1fr);   
+    }
+    .skills_services_list_item img{
+        width: 40%;
+    }
+    .skills_expierence_list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .skills_services_list_item img{
+        margin: 15px 0 0 0;
+    }  
+    .skills_services_list_item.item_3{
+        grid-column: 1/3;
+        width: 60%;
+        justify-self: center;
+    }
+    .skills_softskills_list_item{
+        font-size: 20px;
+    }
+    .skills_softskills_list_item_line_black{
+        height: 4px;
+    }
+    .skills_softskills_list_item_line_white{
+        height: 4px;
+    }
+    .skills_language{
+        flex-direction: column;
+    }
+    .skills_language_container{
+        margin: 25px 0 0 0;
+    }
+    .portfolio_title{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .porfolio_list{
+        padding: 0 40px;
+        grid-template-columns: 1fr;
+    }
+    .review_title{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .review_list_content.msk {
+        display: none;
+    }
+    .contacts_title{
+        text-align: center;
+        margin: 50px 0;
+    }
+    .feedback_container{
+        width: 100%;
+    }
+    .feedback_title{
+        text-align: center;
+        margin: 0 0 50px 0;
+    }
+
+}
+
+
+@media (max-width: 725px) {
+    .opening_name{
+        font-size: 30px;
+    }
+    .opening_console-container {
+        font-size: 10px;
+    }
+    .general{
+        display: flex;
+        flex-direction: column;
+    }
+    .general_container{
+        display: flex;
+        flex-direction: column;
+    }
+    .general img{
+        max-width: 50%;
+        height: auto;
+        border-radius: 5%;
+        align-self: center;
+    }
+    .general_info{
+        display: flex;
+        flex-direction:column;
+    }
+    .general_info_text{
+        font-size: 21px;
+        width: 70%;
+        text-align: center;
+        align-self: center;
+        margin: 0;
+    }
+    .skills_services_list{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .skills_services_list_item{
+        width: 80%;
+    }
+    .skills_services_list_item img{
+        width: 30%;
+    }
+    .skills_services_list_item.item_3{
+        grid-column: 1/1;
+        width: 100%;
+    }
+    .skills_expierence_list{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+    .skills_softskills_list_item{
+        font-size: 15px;
+    }
+    .skills_softskills_list_item_line_black{
+        height: 3px;
+    }
+    .skills_softskills_list_item_line_white{
+        height: 3px;
+    }
+    .skills_softskills_list_text{
+        font-size: 20px;
+    }
+    .skills_language_circle_black{
+        width: 20px;
+        height: 20px;
+    }
+    .skills_language_circle_white{
+        width: 20px;
+        height: 20px;
+    }
+    .review_list_content{
+        font-size: 1em;
+        padding: 12px 7px;
+    }
+    .contacts_list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 525px) {
+    .general_info_points{
+        grid-template-columns: 1fr;
+    }
+    .general_main_info_details_item{
+        text-align: center;
+        align-self: center;
+    }
+    .skills_softskills_list_item{
+        font-size: 13px;
+    }
+    .skills_softskills_list_item_line_black{
+        height: 2px;
+    }
+    .skills_softskills_list_item_line_white{
+        height: 2px;
+    }
+    .skills_softskills_list_text{
+        font-size: 15px;
+    }
+    .skills_services_title{
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    .skills_language_name{
+        font-size: 22px;
+    }
+    .review_title{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0 0 10px 0;
+        text-align: center;
+    }
+    .review_list_content{
+        font-size: 0.75em;
+        padding: 10px 5px;
+    }
+    .review_list{
+        flex-direction: column;
+    }
+    .review_list_content.msk {
+        display: block;
+    }
+    .review_list_content{
+        margin: 15px 0;
+    }
+    .contacts_list{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .contacts_list_item img{
+        margin: 20px 0 0 0;
+        width: 90px;
+        height: auto;
+    }
+    .contacts_title{
+        font-size: 20px;
+        font-weight: bold;
+        margin: 0 0 20px 0;
+        text-align: center;
+    }
+    .contacts_list_item{
+        margin: 10px 0 0 0;
+    }
+    .feedback_title{
+        font-size: 20px;
+        margin: 0 0 30px 0;
+        text-align: center;
+    }
+    .feedback_input_container{
+        width: 250px;
+        height: 200px;
+        margin: 10px 0 25px 0;
+        padding: 10px 0 30px 0;
+    }
+    .feedback_input {
+        font-size: 10px;
+        padding: 10px 0 10px 10px;
+        margin: 15px 0 0 0;
+    }
+    .feedback_button {
+        padding: 10px 0 10px 10px;
+        font-size: 10px;
+        margin: 15px 0 0 0;
+    }
+    .footer_copyright{
+        font-size: 1.5em;
+    }
+
+}
