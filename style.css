@@ -105,6 +105,7 @@ a.active {
   margin: 0 0 0 20px;
   font-size: 10px;
   color: #1b1c1c;
+  display: none;
 }
 .header_mobile_social {
   display: flex;

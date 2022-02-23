@@ -63,7 +63,7 @@ const anchors = document.querySelectorAll('a[href*="#"]').forEach(link =>{
 
 
 // ФУНКЦИЯ НА ВЫПОЛНЕНИЯ ИМИТАЦИИ ПЕЧАТАНИЯ ТЕКСТА
-consoleText(['и я верстальщик', 'а также будущий WEB-разработчик', 'г. Санкт-Петербург',], 'text',['#fff','#fff']);
+consoleText(['и я frontend-разработчик', 'г. Санкт-Петербург',], 'text',['#fff','#fff']);
 
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#fff'];
